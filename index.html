@@ -558,13 +558,7 @@ body{display:flex;align-items:center;justify-content:center;background:radial-gr
          AUTH (Login / Registrierung)
          ========================================= -->
     <section class="screen" id="auth">
-      <div class="status-bar">
-        <span>9:41</span>
-        <span class="right">
-          <svg width="16" height="10" viewBox="0 0 16 10" fill="none"><path d="M1 5.5C3.5 3 6 1.5 8 1.5s4.5 1.5 7 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M3.5 7C5 5.5 6.5 4.7 8 4.7s3 .8 4.5 2.3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><circle cx="8" cy="9" r="1" fill="currentColor"/></svg>
-          <svg width="22" height="10" viewBox="0 0 22 10" fill="none"><rect x="0.5" y="0.5" width="18" height="9" rx="2.5" stroke="currentColor" stroke-opacity=".6"/><rect x="2" y="2" width="14" height="6" rx="1.2" fill="currentColor"/><rect x="19.5" y="3.5" width="1.5" height="3" rx=".5" fill="currentColor" opacity=".6"/></svg>
-        </span>
-      </div>
+      <div class="status-bar" data-status-bar></div>
       <div class="content">
         <div class="tp-eyebrow">Willkommen bei Next Level</div>
         <h2 class="tp-title" id="authTitle">Anmelden.</h2>
@@ -650,13 +644,7 @@ body{display:flex;align-items:center;justify-content:center;background:radial-gr
          TRACK PICKER (nach Splash beim ersten Mal)
          ========================================= -->
     <section class="screen" id="trackPicker">
-      <div class="status-bar">
-        <span>9:41</span>
-        <span class="right">
-          <svg width="16" height="10" viewBox="0 0 16 10" fill="none"><path d="M1 5.5C3.5 3 6 1.5 8 1.5s4.5 1.5 7 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M3.5 7C5 5.5 6.5 4.7 8 4.7s3 .8 4.5 2.3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><circle cx="8" cy="9" r="1" fill="currentColor"/></svg>
-          <svg width="22" height="10" viewBox="0 0 22 10" fill="none"><rect x="0.5" y="0.5" width="18" height="9" rx="2.5" stroke="currentColor" stroke-opacity=".6"/><rect x="2" y="2" width="14" height="6" rx="1.2" fill="currentColor"/><rect x="19.5" y="3.5" width="1.5" height="3" rx=".5" fill="currentColor" opacity=".6"/></svg>
-        </span>
-      </div>
+      <div class="status-bar" data-status-bar></div>
       <button class="back" id="trackBackBtn" onclick="go('home')" aria-label="Zurück" style="display:none;position:absolute;top:56px;left:18px;z-index:2">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
       </button>
@@ -700,13 +688,7 @@ body{display:flex;align-items:center;justify-content:center;background:radial-gr
          HOME
          ========================================= -->
     <section class="screen" id="home">
-      <div class="status-bar">
-        <span>9:41</span>
-        <span class="right">
-          <svg width="16" height="10" viewBox="0 0 16 10" fill="none"><path d="M1 5.5C3.5 3 6 1.5 8 1.5s4.5 1.5 7 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M3.5 7C5 5.5 6.5 4.7 8 4.7s3 .8 4.5 2.3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><circle cx="8" cy="9" r="1" fill="currentColor"/></svg>
-          <svg width="22" height="10" viewBox="0 0 22 10" fill="none"><rect x="0.5" y="0.5" width="18" height="9" rx="2.5" stroke="currentColor" stroke-opacity=".6"/><rect x="2" y="2" width="14" height="6" rx="1.2" fill="currentColor"/><rect x="19.5" y="3.5" width="1.5" height="3" rx=".5" fill="currentColor" opacity=".6"/></svg>
-        </span>
-      </div>
+      <div class="status-bar" data-status-bar></div>
 
       <div class="screen-scroll">
         <div class="top-bar">
@@ -744,14 +726,14 @@ body{display:flex;align-items:center;justify-content:center;background:radial-gr
               <span id="levelNum">7</span>
             </div>
             <div class="xp">
-              <div class="xp-num"><span id="xpNum">2450</span> XP</div>
-              <div class="xp-label">Nächstes Level: <span id="nextLvlXp">3000</span> XP</div>
+              <div class="xp-num"><span id="xpNum">3250</span> XP</div>
+              <div class="xp-label">Nächstes Level: <span id="nextLvlXp">3500</span> XP</div>
             </div>
           </div>
-          <div class="progress"><i id="xpBar" style="width:72%"></i></div>
+          <div class="progress"><i id="xpBar" style="width:50%"></i></div>
           <div class="progress-row">
             <span>Fortschritt zum Level <span id="nextLvl">8</span></span>
-            <span class="pct" id="xpPct">72%</span>
+            <span class="pct" id="xpPct">50%</span>
           </div>
         </div>
 
@@ -851,13 +833,7 @@ body{display:flex;align-items:center;justify-content:center;background:radial-gr
          MISSIONS
          ========================================= -->
     <section class="screen" id="missions">
-      <div class="status-bar">
-        <span>9:41</span>
-        <span class="right">
-          <svg width="16" height="10" viewBox="0 0 16 10" fill="none"><path d="M1 5.5C3.5 3 6 1.5 8 1.5s4.5 1.5 7 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M3.5 7C5 5.5 6.5 4.7 8 4.7s3 .8 4.5 2.3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><circle cx="8" cy="9" r="1" fill="currentColor"/></svg>
-          <svg width="22" height="10" viewBox="0 0 22 10" fill="none"><rect x="0.5" y="0.5" width="18" height="9" rx="2.5" stroke="currentColor" stroke-opacity=".6"/><rect x="2" y="2" width="14" height="6" rx="1.2" fill="currentColor"/><rect x="19.5" y="3.5" width="1.5" height="3" rx=".5" fill="currentColor" opacity=".6"/></svg>
-        </span>
-      </div>
+      <div class="status-bar" data-status-bar></div>
 
       <div class="screen-scroll">
         <div class="header">
@@ -898,13 +874,7 @@ body{display:flex;align-items:center;justify-content:center;background:radial-gr
          QUIZ
          ========================================= -->
     <section class="screen" id="quiz">
-      <div class="status-bar">
-        <span>9:41</span>
-        <span class="right">
-          <svg width="16" height="10" viewBox="0 0 16 10" fill="none"><path d="M1 5.5C3.5 3 6 1.5 8 1.5s4.5 1.5 7 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M3.5 7C5 5.5 6.5 4.7 8 4.7s3 .8 4.5 2.3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><circle cx="8" cy="9" r="1" fill="currentColor"/></svg>
-          <svg width="22" height="10" viewBox="0 0 22 10" fill="none"><rect x="0.5" y="0.5" width="18" height="9" rx="2.5" stroke="currentColor" stroke-opacity=".6"/><rect x="2" y="2" width="14" height="6" rx="1.2" fill="currentColor"/><rect x="19.5" y="3.5" width="1.5" height="3" rx=".5" fill="currentColor" opacity=".6"/></svg>
-        </span>
-      </div>
+      <div class="status-bar" data-status-bar></div>
 
       <div class="screen-scroll" style="padding-bottom:100px">
         <div class="header quiz-header">
@@ -945,13 +915,7 @@ body{display:flex;align-items:center;justify-content:center;background:radial-gr
          RESULT
          ========================================= -->
     <section class="screen" id="result">
-      <div class="status-bar">
-        <span>9:41</span>
-        <span class="right">
-          <svg width="16" height="10" viewBox="0 0 16 10" fill="none"><path d="M1 5.5C3.5 3 6 1.5 8 1.5s4.5 1.5 7 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M3.5 7C5 5.5 6.5 4.7 8 4.7s3 .8 4.5 2.3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><circle cx="8" cy="9" r="1" fill="currentColor"/></svg>
-          <svg width="22" height="10" viewBox="0 0 22 10" fill="none"><rect x="0.5" y="0.5" width="18" height="9" rx="2.5" stroke="currentColor" stroke-opacity=".6"/><rect x="2" y="2" width="14" height="6" rx="1.2" fill="currentColor"/><rect x="19.5" y="3.5" width="1.5" height="3" rx=".5" fill="currentColor" opacity=".6"/></svg>
-        </span>
-      </div>
+      <div class="status-bar" data-status-bar></div>
 
       <div class="screen-scroll" style="padding-bottom:120px">
         <div class="result-wrap">
@@ -975,13 +939,7 @@ body{display:flex;align-items:center;justify-content:center;background:radial-gr
          RANGLISTE
          ========================================= -->
     <section class="screen" id="leaderboard">
-      <div class="status-bar">
-        <span>9:41</span>
-        <span class="right">
-          <svg width="16" height="10" viewBox="0 0 16 10" fill="none"><path d="M1 5.5C3.5 3 6 1.5 8 1.5s4.5 1.5 7 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M3.5 7C5 5.5 6.5 4.7 8 4.7s3 .8 4.5 2.3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><circle cx="8" cy="9" r="1" fill="currentColor"/></svg>
-          <svg width="22" height="10" viewBox="0 0 22 10" fill="none"><rect x="0.5" y="0.5" width="18" height="9" rx="2.5" stroke="currentColor" stroke-opacity=".6"/><rect x="2" y="2" width="14" height="6" rx="1.2" fill="currentColor"/><rect x="19.5" y="3.5" width="1.5" height="3" rx=".5" fill="currentColor" opacity=".6"/></svg>
-        </span>
-      </div>
+      <div class="status-bar" data-status-bar></div>
 
       <div class="screen-scroll">
         <div class="header">
@@ -1021,13 +979,7 @@ body{display:flex;align-items:center;justify-content:center;background:radial-gr
          FORTSCHRITT
          ========================================= -->
     <section class="screen" id="progress">
-      <div class="status-bar">
-        <span>9:41</span>
-        <span class="right">
-          <svg width="16" height="10" viewBox="0 0 16 10" fill="none"><path d="M1 5.5C3.5 3 6 1.5 8 1.5s4.5 1.5 7 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M3.5 7C5 5.5 6.5 4.7 8 4.7s3 .8 4.5 2.3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><circle cx="8" cy="9" r="1" fill="currentColor"/></svg>
-          <svg width="22" height="10" viewBox="0 0 22 10" fill="none"><rect x="0.5" y="0.5" width="18" height="9" rx="2.5" stroke="currentColor" stroke-opacity=".6"/><rect x="2" y="2" width="14" height="6" rx="1.2" fill="currentColor"/><rect x="19.5" y="3.5" width="1.5" height="3" rx=".5" fill="currentColor" opacity=".6"/></svg>
-        </span>
-      </div>
+      <div class="status-bar" data-status-bar></div>
 
       <div class="screen-scroll">
         <div class="header">
@@ -1106,13 +1058,7 @@ body{display:flex;align-items:center;justify-content:center;background:radial-gr
          PROFIL
          ========================================= -->
     <section class="screen" id="profile">
-      <div class="status-bar">
-        <span>9:41</span>
-        <span class="right">
-          <svg width="16" height="10" viewBox="0 0 16 10" fill="none"><path d="M1 5.5C3.5 3 6 1.5 8 1.5s4.5 1.5 7 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M3.5 7C5 5.5 6.5 4.7 8 4.7s3 .8 4.5 2.3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><circle cx="8" cy="9" r="1" fill="currentColor"/></svg>
-          <svg width="22" height="10" viewBox="0 0 22 10" fill="none"><rect x="0.5" y="0.5" width="18" height="9" rx="2.5" stroke="currentColor" stroke-opacity=".6"/><rect x="2" y="2" width="14" height="6" rx="1.2" fill="currentColor"/><rect x="19.5" y="3.5" width="1.5" height="3" rx=".5" fill="currentColor" opacity=".6"/></svg>
-        </span>
-      </div>
+      <div class="status-bar" data-status-bar></div>
 
       <div class="screen-scroll">
         <div class="header">
@@ -1199,13 +1145,7 @@ body{display:flex;align-items:center;justify-content:center;background:radial-gr
          BATTLE LOBBY
          ========================================= -->
     <section class="screen" id="battleLobby">
-      <div class="status-bar">
-        <span>9:41</span>
-        <span class="right">
-          <svg width="16" height="10" viewBox="0 0 16 10" fill="none"><path d="M1 5.5C3.5 3 6 1.5 8 1.5s4.5 1.5 7 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M3.5 7C5 5.5 6.5 4.7 8 4.7s3 .8 4.5 2.3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><circle cx="8" cy="9" r="1" fill="currentColor"/></svg>
-          <svg width="22" height="10" viewBox="0 0 22 10" fill="none"><rect x="0.5" y="0.5" width="18" height="9" rx="2.5" stroke="currentColor" stroke-opacity=".6"/><rect x="2" y="2" width="14" height="6" rx="1.2" fill="currentColor"/><rect x="19.5" y="3.5" width="1.5" height="3" rx=".5" fill="currentColor" opacity=".6"/></svg>
-        </span>
-      </div>
+      <div class="status-bar" data-status-bar></div>
 
       <div class="screen-scroll">
         <div class="header">
@@ -1258,13 +1198,7 @@ body{display:flex;align-items:center;justify-content:center;background:radial-gr
          BATTLE GAME
          ========================================= -->
     <section class="screen" id="battleGame">
-      <div class="status-bar">
-        <span>9:41</span>
-        <span class="right">
-          <svg width="16" height="10" viewBox="0 0 16 10" fill="none"><path d="M1 5.5C3.5 3 6 1.5 8 1.5s4.5 1.5 7 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M3.5 7C5 5.5 6.5 4.7 8 4.7s3 .8 4.5 2.3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><circle cx="8" cy="9" r="1" fill="currentColor"/></svg>
-          <svg width="22" height="10" viewBox="0 0 22 10" fill="none"><rect x="0.5" y="0.5" width="18" height="9" rx="2.5" stroke="currentColor" stroke-opacity=".6"/><rect x="2" y="2" width="14" height="6" rx="1.2" fill="currentColor"/><rect x="19.5" y="3.5" width="1.5" height="3" rx=".5" fill="currentColor" opacity=".6"/></svg>
-        </span>
-      </div>
+      <div class="status-bar" data-status-bar></div>
 
       <div class="screen-scroll" style="padding-bottom:100px">
         <div class="header">
@@ -1305,13 +1239,7 @@ body{display:flex;align-items:center;justify-content:center;background:radial-gr
          BATTLE RESULT
          ========================================= -->
     <section class="screen" id="battleResult">
-      <div class="status-bar">
-        <span>9:41</span>
-        <span class="right">
-          <svg width="16" height="10" viewBox="0 0 16 10" fill="none"><path d="M1 5.5C3.5 3 6 1.5 8 1.5s4.5 1.5 7 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M3.5 7C5 5.5 6.5 4.7 8 4.7s3 .8 4.5 2.3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><circle cx="8" cy="9" r="1" fill="currentColor"/></svg>
-          <svg width="22" height="10" viewBox="0 0 22 10" fill="none"><rect x="0.5" y="0.5" width="18" height="9" rx="2.5" stroke="currentColor" stroke-opacity=".6"/><rect x="2" y="2" width="14" height="6" rx="1.2" fill="currentColor"/><rect x="19.5" y="3.5" width="1.5" height="3" rx=".5" fill="currentColor" opacity=".6"/></svg>
-        </span>
-      </div>
+      <div class="status-bar" data-status-bar></div>
 
       <div class="screen-scroll" style="padding-bottom:120px">
         <div class="result-wrap">
@@ -1333,13 +1261,7 @@ body{display:flex;align-items:center;justify-content:center;background:radial-gr
          PUZZLE GAME SCREEN
          ========================================= -->
     <section class="screen" id="puzzleGame">
-      <div class="status-bar">
-        <span>9:41</span>
-        <span class="right">
-          <svg width="16" height="10" viewBox="0 0 16 10" fill="none"><path d="M1 5.5C3.5 3 6 1.5 8 1.5s4.5 1.5 7 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M3.5 7C5 5.5 6.5 4.7 8 4.7s3 .8 4.5 2.3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><circle cx="8" cy="9" r="1" fill="currentColor"/></svg>
-          <svg width="22" height="10" viewBox="0 0 22 10" fill="none"><rect x="0.5" y="0.5" width="18" height="9" rx="2.5" stroke="currentColor" stroke-opacity=".6"/><rect x="2" y="2" width="14" height="6" rx="1.2" fill="currentColor"/><rect x="19.5" y="3.5" width="1.5" height="3" rx=".5" fill="currentColor" opacity=".6"/></svg>
-        </span>
-      </div>
+      <div class="status-bar" data-status-bar></div>
 
       <div class="screen-scroll" style="padding-bottom:100px">
         <div class="header">
@@ -1377,13 +1299,7 @@ body{display:flex;align-items:center;justify-content:center;background:radial-gr
          PUZZLE RESULT SCREEN
          ========================================= -->
     <section class="screen" id="puzzleResult">
-      <div class="status-bar">
-        <span>9:41</span>
-        <span class="right">
-          <svg width="16" height="10" viewBox="0 0 16 10" fill="none"><path d="M1 5.5C3.5 3 6 1.5 8 1.5s4.5 1.5 7 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M3.5 7C5 5.5 6.5 4.7 8 4.7s3 .8 4.5 2.3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><circle cx="8" cy="9" r="1" fill="currentColor"/></svg>
-          <svg width="22" height="10" viewBox="0 0 22 10" fill="none"><rect x="0.5" y="0.5" width="18" height="9" rx="2.5" stroke="currentColor" stroke-opacity=".6"/><rect x="2" y="2" width="14" height="6" rx="1.2" fill="currentColor"/><rect x="19.5" y="3.5" width="1.5" height="3" rx=".5" fill="currentColor" opacity=".6"/></svg>
-        </span>
-      </div>
+      <div class="status-bar" data-status-bar></div>
 
       <div class="screen-scroll" style="padding-bottom:120px">
         <div class="result-wrap">
@@ -1405,13 +1321,7 @@ body{display:flex;align-items:center;justify-content:center;background:radial-gr
          NACHRICHTEN
          ========================================= -->
     <section class="screen" id="messages">
-      <div class="status-bar">
-        <span>9:41</span>
-        <span class="right">
-          <svg width="16" height="10" viewBox="0 0 16 10" fill="none"><path d="M1 5.5C3.5 3 6 1.5 8 1.5s4.5 1.5 7 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M3.5 7C5 5.5 6.5 4.7 8 4.7s3 .8 4.5 2.3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><circle cx="8" cy="9" r="1" fill="currentColor"/></svg>
-          <svg width="22" height="10" viewBox="0 0 22 10" fill="none"><rect x="0.5" y="0.5" width="18" height="9" rx="2.5" stroke="currentColor" stroke-opacity=".6"/><rect x="2" y="2" width="14" height="6" rx="1.2" fill="currentColor"/><rect x="19.5" y="3.5" width="1.5" height="3" rx=".5" fill="currentColor" opacity=".6"/></svg>
-        </span>
-      </div>
+      <div class="status-bar" data-status-bar></div>
       <div class="header">
         <button class="back" onclick="go('home')" aria-label="Zurück">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
@@ -1428,13 +1338,7 @@ body{display:flex;align-items:center;justify-content:center;background:radial-gr
          EINSTELLUNGEN
          ========================================= -->
     <section class="screen" id="settings">
-      <div class="status-bar">
-        <span>9:41</span>
-        <span class="right">
-          <svg width="16" height="10" viewBox="0 0 16 10" fill="none"><path d="M1 5.5C3.5 3 6 1.5 8 1.5s4.5 1.5 7 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M3.5 7C5 5.5 6.5 4.7 8 4.7s3 .8 4.5 2.3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><circle cx="8" cy="9" r="1" fill="currentColor"/></svg>
-          <svg width="22" height="10" viewBox="0 0 22 10" fill="none"><rect x="0.5" y="0.5" width="18" height="9" rx="2.5" stroke="currentColor" stroke-opacity=".6"/><rect x="2" y="2" width="14" height="6" rx="1.2" fill="currentColor"/><rect x="19.5" y="3.5" width="1.5" height="3" rx=".5" fill="currentColor" opacity=".6"/></svg>
-        </span>
-      </div>
+      <div class="status-bar" data-status-bar></div>
       <div class="header">
         <button class="back" onclick="go('profile')" aria-label="Zurück">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
@@ -1506,8 +1410,17 @@ body{display:flex;align-items:center;justify-content:center;background:radial-gr
    © 2026 Bülent Uslu · Konzeptvorschau
    ============================================================ */
 
+/* -------- STATUS-BAR (Uhrzeit/Signal/Akku), einmalig definiert und in jeden Screen geklont -------- */
+const STATUS_BAR_HTML = `
+        <span>9:41</span>
+        <span class="right">
+          <svg width="16" height="10" viewBox="0 0 16 10" fill="none"><path d="M1 5.5C3.5 3 6 1.5 8 1.5s4.5 1.5 7 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M3.5 7C5 5.5 6.5 4.7 8 4.7s3 .8 4.5 2.3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><circle cx="8" cy="9" r="1" fill="currentColor"/></svg>
+          <svg width="22" height="10" viewBox="0 0 22 10" fill="none"><rect x="0.5" y="0.5" width="18" height="9" rx="2.5" stroke="currentColor" stroke-opacity=".6"/><rect x="2" y="2" width="14" height="6" rx="1.2" fill="currentColor"/><rect x="19.5" y="3.5" width="1.5" height="3" rx=".5" fill="currentColor" opacity=".6"/></svg>
+        </span>`;
+document.querySelectorAll('[data-status-bar]').forEach(el => el.innerHTML = STATUS_BAR_HTML);
+
 /* -------- STATE -------- */
-const DEFAULT_STATE = { name:"Michael", level:7, xp:2450, streak:12, track:null, completedMissions:[], answers:[], missionProgress:{}, xpHistory:[], lastActiveDate:null, battlesWon:0, puzzlesCompleted:0, isAdmin:false, lastSeenMessageId:null, soundOn:true, hapticOn:true, brightness:100, filialeBilanz:{}, battleDifficulty:0.65 };
+const DEFAULT_STATE = { name:"Michael", level:7, xp:3250, streak:12, track:null, completedMissions:[], answers:[], missionProgress:{}, xpHistory:[], lastActiveDate:null, battlesWon:0, puzzlesCompleted:0, isAdmin:false, lastSeenMessageId:null, soundOn:true, hapticOn:true, brightness:100, filialeBilanz:{}, battleDifficulty:0.65 };
 
 /* -------- KARRIERE-TITEL pro Track & Level -------- */
 const CAREER_TITLES = {
