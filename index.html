@@ -1503,8 +1503,16 @@ function loadState(){
     return {...DEFAULT_STATE, ...JSON.parse(raw)};
   }catch(e){ return {...DEFAULT_STATE}; }
 }
+let saveStateWarned = false;
 function saveState(){
-  try{ localStorage.setItem("nextlevel_user", JSON.stringify(state)); }catch(e){}
+  try{
+    localStorage.setItem("nextlevel_user", JSON.stringify(state));
+  }catch(e){
+    if(!saveStateWarned){
+      saveStateWarned = true;
+      toast("⚠️ Fortschritt kann nicht gespeichert werden (Speicher voll oder privater Modus)");
+    }
+  }
 }
 
 /* ============================================================
