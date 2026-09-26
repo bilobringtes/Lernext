@@ -220,7 +220,7 @@ body{display:flex;align-items:center;justify-content:center;background:radial-gr
 .result-wrap .total{color:var(--muted);font-size:13px;margin-bottom:30px;font-family:var(--font-head);font-weight:500}
 .result-wrap .total b{color:var(--white);font-weight:700}
 .confetti-canvas{position:absolute;inset:0;pointer-events:none;z-index:0}
-.result-wrap > *{position:relative;z-index:1}
+.result-wrap > *:not(.confetti-canvas){position:relative;z-index:1}
 .trophy{width:110px;height:110px;border-radius:999px;background:radial-gradient(circle at 40% 30%, rgba(255,255,255,0.15), transparent 55%),linear-gradient(135deg,var(--red),var(--red-2));display:flex;align-items:center;justify-content:center;box-shadow:var(--glow);color:#fff}
 
 /* FORTSCHRITT */
