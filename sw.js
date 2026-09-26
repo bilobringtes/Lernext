@@ -2,10 +2,12 @@
    © 2026 Bülent Uslu · Konzeptvorschau
    Network-First-Strategie (optimal für Entwicklungsphasen)
 */
-const CACHE = "nextlevel-v2";
+const CACHE = "nextlevel-v3";
 const CORE = [
   "./",
   "./index.html",
+  "./styles.css",
+  "./app.js",
   "./manifest.json"
 ];
 
