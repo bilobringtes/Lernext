@@ -1375,9 +1375,19 @@ window.addEventListener("load", ()=>{
   }, 1500);
 
   if("serviceWorker" in navigator){
+    const hadController = !!navigator.serviceWorker.controller;
     navigator.serviceWorker.register("sw.js").catch(()=>{});
+    navigator.serviceWorker.addEventListener("controllerchange", () => {
+      if(hadController) showUpdateBanner();
+    });
   }
 });
+
+/* -------- SERVICE-WORKER-UPDATE-HINWEIS -------- */
+function showUpdateBanner(){
+  const el = document.getElementById("swUpdateBanner");
+  if(el) el.classList.remove("hidden");
+}
 
 /* ============================================================
    PUZZLE (Kategorien-Rätsel)
