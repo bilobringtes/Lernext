@@ -1,0 +1,15 @@
+{
+  "name": "lernext",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Next Level – Gamifizierte Trainingsplattform (Konzeptvorschau)",
+  "scripts": {
+    "lint": "eslint app.js sw.js",
+    "format:check": "prettier --check app.js styles.css index.html",
+    "format": "prettier --write app.js styles.css index.html"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "prettier": "^3.8.1"
+  }
+}
